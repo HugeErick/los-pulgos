@@ -1,3 +1,17 @@
 *{
     box-sizing: border-box !important;
 }
+
+
+.hidden {
+	opacity: 0 !important;
+	filter: blur(5px) !important;
+	transform: translateX(-100%) !important;
+	transition: all 1s !important;
+}
+
+.show{
+    opacity: 1 !important;
+    filter: blur(0) !important;
+    transform: translateX(0) !important;
+}

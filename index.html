@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/7fd556fca2.js" crossorigin="anonymous"></script>
  	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link href="index.css" src="index.css">
+    <link href="index.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <title>Los pulgos</title>
 </head>
+<section class="hidden">
 <body style="background: linear-gradient(45deg, #D585F9, #858AF9) !important;">
     <header class="d-flex justify-content-center align-items-center m-2 bg-dark rounded-pill">
         <img src="temp_logo.jpg" alt="logo" height="144px" style="margin-right: 1.6em">
@@ -17,8 +18,9 @@
         <a lang="es" href="about.html" target="_blank" class="display-6 text-white p-4">Acerca de</a>
         <a lang="es" href="licencias-de-copyright.html" class="display-6 text-white p-3">Licencias de copyright</a>
     </header>
+</section>
 
-    <div class="dropdown d-flex justify-content-center mt-4">
+    <div class="dropdown d-flex justify-content-center mt-4 hidden">
   <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     más actividades 
   </a>
@@ -26,8 +28,8 @@
   <ul class="dropdown-menu">
     <li class="bg-dark text-white"><a class="dropdown-item bg-dark text-white" href="act-extra-1.html">Act extra 1 parcial 3</a></li>
   </ul>
-</div>
-    <div class="d-flex justify-content-center">
+    </div>
+    <div class="d-flex justify-content-center hidden">
     <main class="d-inline-block m-2 pt-4">
         <h1 class="d-flex justify-content-center display-1">Los pulgos</h1>
         <h4 class="pt-5">descripción</h4>
@@ -37,12 +39,15 @@ Decidiendo así realizar la investigación enfocada en la educación sexual por 
 Tomando en cuenta también que este tema termina siendo investigable, pues hoy en día se puede obtener mucha información a través de la tecnología y gracias a estadísticas nacionales hemos podido encontrar información relevante sobre la falta de educación sexual. Asimismo, es un tema en el que se puede apoyar e implementar diferentes soluciones para minimizarlo, pues contamos con las herramientas para proponer soluciones factibles.
 </p>
         </div>
+        <section class="hidden">
             <h5 class="pt-5">Pregunta de investigación</h5>
         <div class="text-wrap" style="width: 40em">
             <p lang="es">¿De que manera se podria ayudar a erradica la falta de acceso a la informacion sobre la educacion sexual siendo este uno de los principales problematicas de desinformacion en adolescentes de 13 a 18 años en Ciudad de Mexico en 2022</p>
         </div>
+        </section>
     </main>
     </div>
+    <script defer src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> 
     
 </body>
