@@ -3,14 +3,14 @@
 }
 
 
-.hidden {
+.hidden2 {
 	opacity: 0 !important;
 	filter: blur(5px) !important;
 	transform: translateX(-100%) !important;
-	transition: all 1s !important;
+	transition: all 1.5s !important;
 }
 
-.show{
+.show2{
     opacity: 1 !important;
     filter: blur(0) !important;
     transform: translateX(0) !important;
