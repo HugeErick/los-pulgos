@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    border: solid black;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.image-container{
+    display: flex;
+    width: 70%;
+    margin-top: 3em;
+    height: auto;
+    overflow-y: scroll;
+    justify-content: center;
+}
