@@ -7,6 +7,19 @@ img {
     height: auto;
 }
 
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.image-container{
+    display: flex;
+    width: 93%;
+    margin-top: 3em;
+    height: auto;
+    overflow-y: scroll;
+    justify-content: center;
+}
+
 main{
     width: 100%;
     height: auto;

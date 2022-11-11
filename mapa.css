@@ -34,6 +34,19 @@ li{
     -ms-animation: fadeIn 4s;
 }
 
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.image-container{
+    display: flex;
+    width: 93%;
+    margin-top: 3em;
+    height: auto;
+    overflow-y: scroll;
+    justify-content: center;
+}
+
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
