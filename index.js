@@ -1,3 +1,10 @@
+const popUp = document.getElementById('pop-up');
+const closeBtn = document.getElementById('close-btn1');
+
+closeBtn.addEventListener('click', () => {
+    popUp.classList.remove('b-show');
+});
+
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) =>  {
        console.log(entry)
