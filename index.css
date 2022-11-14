@@ -6,6 +6,7 @@
 body{
     scroll-behavior: smooth;
     width: auto;
+    overflow-x: hidden;
 }
 
 .logo-img-pos{

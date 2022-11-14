@@ -9,12 +9,50 @@
  	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <a href="index.html">back</a>
-    </header>
+    <img src="temp_logo.jpg" alt="logo" height="55px" class="logo-img-pos">
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Los Pulgos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="literatura.html">Literatura</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="linea.html">Linea del tiempo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="mapa.html">Mapa conceptual</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="infografia.html">Infografía</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        + secciones 
+                        </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="licencias-de-copyright.html">Videos</a></li>
+                        <li><a class="dropdown-item" href="act-extra-1.html">Act extra</a></li>
+                    </ul>
+                    </li>
+                </ul>
+                </div>
+        </div>
+    </nav>
+
+
+    <div class="my-bckgr1"></div>
+
     <main>
         <h2 class="display-3 my-4">En este apartado trabajaron</h2>
-        <ul class="my-4">
+        <ul class="my-4 my-list">
             <li>María Blanco Salvatori - 177294</li>
             <li>María Elena Marín Guevara - 177309</li>
             <li>Jaqueline Monserrat Cornejo Quintero 178404</li>
@@ -23,7 +61,7 @@
         </ul>
         <div class="wrapper">
             <div class="image-container">
-                <img src="imgs\mapa.png" alt="mapa conceptual">
+                <img src="imgs\mapa.png" alt="mapa conceptual" class="mapa">
             </div>
         </div>
     </main>
