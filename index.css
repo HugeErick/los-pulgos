@@ -15,9 +15,13 @@ html{
     z-index: 3000;
 }
 
-.my-background{
-    z-index: -160;
-    position: fixed;
+.my-bckgr1{
+    background: linear-gradient(45deg, #D585F9, #858AF9);
+    clip-path: polygon(0 0, 100% 0, 50% 67%, 0% 100%);
+    z-index: -4000;
+    position:absolute;
+    width:100vw ;
+    height: 200vh;
 }
 
 .r-l-d li{
@@ -47,9 +51,8 @@ html{
 }
 
 .close-btn1{
-    position: fixed;
-    top: 11.9em;
-    right: 21.4em;
+    position: absolute;
+    top: 1em;
 }
 
 
@@ -57,7 +60,7 @@ html{
     padding: 1em;
     height: 19em;
     width: 45em;
-    background-color: rgb(123, 161, 187);
+    background-color: #fff;
     justify-content: center;
 }
 .text-pop-up{
