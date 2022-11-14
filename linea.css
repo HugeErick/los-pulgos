@@ -2,7 +2,23 @@
     box-sizing: border-box;
 }
 
-img {
+.logo-img-pos{
+    position: absolute;
+    top: 0;
+    right: 75px;
+    z-index: 3000;
+}
+
+.my-bckgr1{
+    background: linear-gradient(45deg, #D585F9, #858AF9);
+    clip-path: polygon(0 0, 100% 0, 50% 67%, 0% 100%);
+    z-index: -4000;
+    position:absolute;
+    width:99vw ;
+    height: 400vh;
+}
+
+.mapa {
     width: 100%;
     height: auto;
 }
@@ -16,7 +32,6 @@ img {
     width: 93%;
     margin-top: 3em;
     height: auto;
-    overflow-y: scroll;
     justify-content: center;
 }
 
@@ -29,17 +44,13 @@ main{
 }
 
 h2{
-    filter: drop-shadow(0 -2mm 4mm rgb(160, 0, 210));
+    filter: drop-shadow(0 -2mm 4mm rgb(119, 240, 119));
 }
 
-a{
-    margin: 10em 0 0 3em;
-}
-
-li{
+.my-list li{
     list-style: none;
     margin: 0.3em;
-    font-size: large;
+    font-size: x-large;
     animation: fadeIn 4s;
     -webkit-animation: fadeIn 4s;
     -moz-animation: fadeIn 4s;
