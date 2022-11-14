@@ -3,7 +3,7 @@
     text-align: justify !important;
 }
 
-html{
+body{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -20,8 +20,8 @@ html{
     clip-path: polygon(0 0, 100% 0, 50% 67%, 0% 100%);
     z-index: -4000;
     position:absolute;
-    width:100vw ;
-    height: 200vh;
+    width:99vw ;
+    height: 400vh;
 }
 
 .r-l-d li{
