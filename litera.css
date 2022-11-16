@@ -1,3 +1,10 @@
+
+body{
+    scroll-behavior: smooth;
+    width: auto;
+    overflow-x: hidden;
+}
+
 .logo-img-pos{
     position: absolute;
     top: 0;
@@ -11,9 +18,14 @@
     z-index: -4000;
     position:absolute;
     width:99vw ;
-    height: 400vh;
+    height: 600vh;
 }
 
 p{
     font-size: large;
+}
+
+.img-cont{
+    width: 100%;
+    height: auto;
 }
