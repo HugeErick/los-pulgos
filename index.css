@@ -35,3 +35,10 @@ body{
     text-decoration: none;
 }
 
+.ho-link {
+    transition: color .3s ease-in-out;
+}
+
+.ho-link:hover {
+    color: white;
+}
