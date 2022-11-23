@@ -18,7 +18,7 @@ body{
     z-index: -4000;
     position:absolute;
     width:99vw ;
-    height: 600vh;
+    height: 850vh;
 }
 
 p{
@@ -28,4 +28,27 @@ p{
 .img-cont{
     width: 100%;
     height: auto;
+}
+
+.to-top {
+    background: rgb(209, 209, 209);
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6em;
+    color: blue;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 400ms;
+}
+
+.to-top.active {
+    pointer-events: auto;
+    opacity: 1;
 }
